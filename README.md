@@ -241,26 +241,24 @@ int main() {
 }
 
 ----
-# Learned some thing new ==> sets<int> a;
+## Learned some thing new ==> sets<int> a;
 
 Syntax:set<datatype> setname;
-
-Example:
 
 set<int> val; // defining an empty set
 set<int> val = {6, 10, 5, 1}; // defining a set with values
 
-    Note: set<datatype, greater<datatype>> setname; is used for storing values in a set in descending order.
+Note: set<datatype, greater<datatype>> setname; is used for storing values in a set in descending order.
 
 Properties:
 
-    The set stores the elements in sorted order.
-    All the elements in a set have unique values.
-    The value of the element cannot be modified once it is added to the set, though it is possible to remove and then add the modified value of that element. Thus, the values are immutable.
-    Sets follow the Binary search tree implementation.
-    The values in a set are unindexed.
+The set stores the elements in sorted order.
+All the elements in a set have unique values.
+The value of the element cannot be modified once it is added to the set, though it is possible to remove and then add the modified value of that element. Thus, the values are immutable.
+Sets follow the Binary search tree implementation.
+The values in a set are unindexed.
 
-    Note: To store the elements in an unsorted(random) order,  unordered_set() can be used.
+ Note: To store the elements in an unsorted(random) order,  unordered_set() can be used.
 
 Some Basic Functions Associated with Set: 
 
