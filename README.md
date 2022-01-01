@@ -25,3 +25,11 @@ Note: set<datatype, greater<datatype>> setname; is used for storing values in a 
 read full article here: https://www.geeksforgeeks.org/set-in-cpp-stl/
 
 ----
+
+### Day 2 [ 1 January 2022]
+
+#### Q1.A. Team[self-solved]
+https://codeforces.com/problemset/problem/231/A
+
+#### Q2.A. Next Round[not-self-solved]
+https://codeforces.com/problemset/problem/158/A

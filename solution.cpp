@@ -1,3 +1,4 @@
+//Day-1
 //SOLUTION 1 : 
 #include <bits/stdc++.h>
 using namespace std;
@@ -78,3 +79,43 @@ int main() {
         cout << a.size() << endl;
     }
 }
+
+//Day 2
+//solution-1
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+
+int count=0;
+int A , B, C;
+    while(t--){
+        
+        cin>>A>>B>>C;
+
+    int sum = A+B+C;
+
+    if(sum>=2){
+        count++;
+    }
+       
+    }
+
+cout<<count<<endl;
+}
+
+//solution-2
+    #include<iostream>
+    using namespace std;
+    int n,k,i,j,a[51];
+    int main()
+    {
+    cin>>n>>k;
+    while(n>i)
+        cin>>a[i++];
+    while(a[j]&&a[j]>=a[k-1])
+        j++;
+    cout<<j;
+    }
